@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class TopController {
     @RequestMapping("/")
     @ResponseBody
-    public String test(){
+    public String top(){
         return "HelloWorld";
     }
 }
