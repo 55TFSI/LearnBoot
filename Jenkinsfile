@@ -10,7 +10,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                build 'LearnBootCI'
+                echo 'There should be a build'
             }
         }
     }
